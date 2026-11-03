@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Durvankur Kansare, MCA student and technology enthusiast interested in Linux system administration and AWS cloud computing." />
+  <title>Durvankur Kansare | Portfolio</title>
+
+  <!-- Tailwind CSS CDN: convenient for this assignment and static Netlify hosting. -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: "#183153",
+            bluebrand: "#244E80",
+            paleblue: "#EAF0F8"
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-white text-slate-800">
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="nav-wrap mx-auto max-w-6xl px-5 md:px-8" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="Durvankur Kansare home">Durvankur Kansare<span>.</span></a>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <div id="nav-links" class="nav-links">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#certifications">Certifications</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section id="home" class="hero-section section-anchor">
+      <div class="mx-auto grid max-w-6xl items-center gap-12 px-5 py-20 md:grid-cols-2 md:px-8 md:py-28">
+        <div class="reveal">
+          <p class="eyebrow"><span class="status-dot"></span> MCA Student · Technology Enthusiast</p>
+          <h1 class="hero-title">Hi, I'm <span>Durvankur Kansare</span></h1>
+          <h2 class="hero-subtitle">MCA Student &amp; Technology Enthusiast</h2>
+          <p class="hero-copy">
+            I'm passionate about technology, learning new skills, and building projects.
+            I’m developing my skills in Linux system administration and AWS cloud technologies
+            with the goal of building a career in IT infrastructure and system administration.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#projects" class="btn btn-primary">View My Projects <span aria-hidden="true">→</span></a>
+            <a href="assets/Durvankur_Kansare_Resume.pdf" class="btn btn-outline" download>Download Resume <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-contact-links">
+            <a href="mailto:durvankurkansare@gmail.com">durvankurkansare@gmail.com</a>
+            <span aria-hidden="true">·</span>
+            <a href="https://www.linkedin.com/in/durvankur-kansare" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <div class="reveal hero-image-column">
+          <div class="portrait-frame">
+            <img src="assets/profile.png" alt="Portrait of Durvankur Kansare" class="profile-photo" />
+          </div>
+          <div class="photo-caption">
+            <span class="caption-line"></span>
+            <p>Learn. Build. Grow.</p>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About section"><span></span></a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section-gray section-anchor">
+      <div class="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-24">
+        <div class="section-heading reveal">
+          <p class="section-kicker">A little about me</p>
+          <h2>About <span>Me</span></h2>
+          <p>
+            I am pursuing my MCA and developing my skills in Linux system administration
+            and AWS cloud technologies. I aim to build a career in IT infrastructure,
+            cloud computing, and system administration.
+          </p>
+        </div>
+
+        <div class="grid gap-5 md:grid-cols-3">
+          <article class="info-card reveal">
+            <div class="card-icon" aria-hidden="true">01</div>
+            <h3>Education</h3>
+            <p>Currently pursuing Master of Computer Applications at R. H. Sapat College of Engineering, Nashik.</p>
+          </article>
+          <article class="info-card reveal">
+            <div class="card-icon" aria-hidden="true">02</div>
+            <h3>Linux System Administration</h3>
+            <p>Interested in Linux servers, user and permission management, service configuration, and troubleshooting.</p>
+          </article>
+          <article class="info-card reveal">
+            <div class="card-icon" aria-hidden="true">03</div>
+            <h3>Cloud Computing</h3>
+            <p>Exploring AWS services and cloud infrastructure, including EC2, S3, and Lambda.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section section-anchor">
+      <div class="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-24">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Academic background</p>
+          <h2>My <span>Education</span></h2>
+          <p>My academic journey and continued learning in technology.</p>
+        </div>
+        <div class="grid gap-5 md:grid-cols-2">
+          <article class="education-card reveal">
+            <div class="education-top"><span class="education-label">Postgraduate</span><span class="education-date">2025 – Present</span></div>
+            <h3>Master of Computer Applications (MCA)</h3>
+            <p class="college-name">Gokhale Education Society's R. H. Sapat College of Engineering, Management Studies and Research, Nashik</p>
+            <p class="education-meta">Savitribai Phule Pune University (SPPU)</p>
+            <span class="education-status">Second Year (SY)</span>
+          </article>
+          <article class="education-card reveal">
+            <div class="education-top"><span class="education-label">Undergraduate</span><span class="education-date">2022 – 2025</span></div>
+            <h3>Bachelor of Business Administration in Computer Applications (BBA CA)</h3>
+            <p class="college-name">Savitribai Phule Pune University</p>
+            <p class="education-meta">Nashik, Maharashtra</p>
+            <span class="education-status">Completed</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section-gray section-anchor">
+      <div class="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-24">
+        <div class="section-heading reveal">
+          <p class="section-kicker">What I'm learning</p>
+          <h2>Technical <span>Skills</span></h2>
+          <p>Core areas I am developing through study, practice, and hands-on projects.</p>
+        </div>
+        <div class="grid gap-5 md:grid-cols-2">
+          <article class="skill-card reveal">
+            <div class="skill-heading">
+              <div class="skill-symbol" aria-hidden="true">🐧</div>
+              <div><p class="skill-kicker">01 / Systems</p><h3>Linux System Administration</h3></div>
+            </div>
+            <p class="skill-description">Working with Linux environments, server services, and common administration tasks.</p>
+            <ul class="skill-list">
+              <li>User and group management</li>
+              <li>File systems and permissions</li>
+              <li>Service management</li>
+              <li>System troubleshooting</li>
+              <li>Apache Web Server</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-heading">
+              <div class="skill-symbol cloud-symbol" aria-hidden="true">☁</div>
+              <div><p class="skill-kicker">02 / Cloud</p><h3>AWS &amp; Cloud Computing</h3></div>
+            </div>
+            <p class="skill-description">Learning cloud infrastructure and core AWS services used to host and manage applications.</p>
+            <ul class="skill-list">
+              <li>Amazon EC2</li>
+              <li>Amazon S3</li>
+              <li>AWS Lambda</li>
+              <li>Cloud infrastructure fundamentals</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section section-anchor">
+      <div class="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-24">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Selected work</p>
+          <h2>Featured <span>Projects</span></h2>
+          <p>A selection of projects that combine problem-solving with practical technology.</p>
+        </div>
+        <div class="grid gap-5 md:grid-cols-2">
+          <article class="project-card reveal">
+            <div class="project-topline"><span>PROJECT 01</span><span class="project-mark">SS</span></div>
+            <h3>SkillSprint</h3>
+            <p>An AI-powered interview preparation and assessment platform designed to help users practice aptitude questions, DSA, and technical assessments.</p>
+            <div class="tech-list"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+            <button class="project-details-btn" type="button" data-project="skillsprint">Project Details <span aria-hidden="true">↗</span></button>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-topline"><span>PROJECT 02</span><span class="project-mark">MR</span></div>
+            <h3>Music Recommendation System</h3>
+            <p>A Python-based music recommendation project that uses similarity techniques to identify songs with related characteristics.</p>
+            <div class="tech-list"><span>Python</span><span>TF-IDF</span><span>Cosine Similarity</span></div>
+            <button class="project-details-btn" type="button" data-project="music">Project Details <span aria-hidden="true">↗</span></button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certification -->
+    <section id="certifications" class="section section-gray section-anchor">
+      <div class="mx-auto max-w-6xl px-5 py-20 md:px-8 md:py-24">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Learning &amp; credentials</p>
+          <h2>Certifications</h2>
+          <p>Credentials and training related to Linux and system administration.</p>
+        </div>
+        <article class="cert-card reveal">
+          <div class="cert-badge" aria-hidden="true">RH</div>
+          <div class="cert-content">
+            <p class="cert-label">Red Hat Certification</p>
+            <h3>Red Hat Certified System Administrator (RHCSA)</h3>
+            <p>Certification focused on essential Red Hat Enterprise Linux system administration skills.</p>
+          </div>
+          <span class="cert-check" aria-label="Certification listed">✓</span>
+        </article>
+        <p class="cert-note">Additional training listed on resume: Red Hat Enterprise Linux 9.5 Training and Linux with AI Training.</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section section-anchor">
+      <div class="mx-auto max-w-4xl px-5 py-20 text-center md:px-8 md:py-24">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Let's connect</p>
+          <h2>Get in <span>Touch</span></h2>
+          <p>I'm happy to connect with people interested in technology, Linux, cloud computing, and learning opportunities.</p>
+        </div>
+        <div class="contact-actions reveal">
+          <a class="btn btn-primary" href="mailto:durvankurkansare@gmail.com">Email Me <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-outline" href="https://www.linkedin.com/in/durvankur-kansare" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="contact-email">durvankurkansare@gmail.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="mx-auto max-w-6xl px-5 py-6 md:px-8">
+      <p>© 2026 Durvankur Kansare. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Project details modal -->
+  <div id="project-modal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description">
+      <button class="modal-close" type="button" aria-label="Close project details" data-close-modal>×</button>
+      <p id="modal-kicker" class="section-kicker">Project details</p>
+      <h2 id="modal-title">Project</h2>
+      <p id="modal-description"></p>
+      <h3>Key focus</h3>
+      <ul id="modal-features" class="modal-features"></ul>
+      <p class="modal-tech" id="modal-tech"></p>
+    </div>
+  </div>
+
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
